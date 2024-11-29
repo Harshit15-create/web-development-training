@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+.logo{
+    flex: 1;
+}
+.menus{
+    flex: 3;
+}
+.menus ul{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style-type: none;
+}
+.menus ul li a{
+    text-decoration: none;
+}
+.menus ul li :hover{
+    transform:scale(1.2) ;
+    transition: none;
+    background-color: gray;
+}

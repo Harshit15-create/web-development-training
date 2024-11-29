@@ -1,0 +1,51 @@
+.parent{
+    background-color: black;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+.childone{
+ 
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    padding: 100px;
+}
+.childone:hover{
+    color: white;
+    transform : scale(1.1);
+    transition: 2s ease-in;
+
+}
+.childtwo{
+    color: blanchedalmond;
+    font-size: medium;
+}
+img{
+    align-items: center;
+    height: 300px;
+
+
+}
+.childtwo:hover{
+    color: aliceblue;
+    transform: scale(1.2);
+    transition: 3s ease-in;
+    padding: 100px 100px;
+}
+h1{
+  
+    font-size: 30px;
+}
+p{
+    color: aliceblue;
+    transform: scale(1.2);
+    transition: 2s ease-in;
+    font-size: 18px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    
+}
